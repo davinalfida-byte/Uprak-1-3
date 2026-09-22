@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef4f8;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    color: #1F4E79;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Kartu produk */
+.produk {
+    width: 280px;
+    padding: 25px;
+    border: 2px solid #1F4E79;
+    margin: 15px;
+    background-color: white;
+    border-radius: 12px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Ikon produk */
+.icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.produk h2 {
+    color: #1F4E79;
+    font-size: 20px;
+}
+
+.deskripsi {
+    color: #666;
+    line-height: 1.5;
+}
+
+.harga {
+    color: #1F4E79;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    color: #777;
+}
