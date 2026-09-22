@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung Davin</title>
+
+    <style>
+        /* Grouping Selector */
+        h1, h2 {
+            font-family: Arial, sans-serif;
+            color: #1F4E79;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: white;
+            padding: 25px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #ddd;
+        }
+
+        /* Descendant Selector */
+        nav a {
+            text-decoration: none;
+            color: #1F4E79;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        /* Pseudo-class */
+        nav a:hover {
+            color: white;
+            background-color: #1F4E79;
+        }
+
+        .menu {
+            width: 70%;
+            max-width: 700px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .menu h2 {
+            text-align: center;
+        }
+
+        /* Descendant Selector */
+        .menu .item p {
+            color: #1F4E79;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 12px 5px;
+        }
+
+        .item span {
+            color: #333;
+        }
+
+        button {
+            display: block;
+            margin: 25px auto 0;
+            padding: 12px 25px;
+            background-color: rgb(31, 78, 121);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: rgba(31, 78, 121, 0.7);
+        }
+
+        footer {
+            text-align: center;
+            color: #666;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Warung Davin</h1>
+        <h2>Menu Makanan & Minuman</h2>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+    <section class="menu">
+        <h2>Daftar Menu</h2>
+
+        <div class="item">
+            <p>Nasi Goreng</p>
+            <span>Rp15.000</span>
+        </div>
+
+        <div class="item">
+            <p>Mie Goreng</p>
+            <span>Rp12.000</span>
+        </div>
+
+        <div class="item">
+            <p>Ayam Geprek</p>
+            <span>Rp18.000</span>
+        </div>
+
+        <div class="item">
+            <p>Es Teh</p>
+            <span>Rp5.000</span>
+        </div>
+
+        <div class="item">
+            <p>Es Jeruk</p>
+            <span>Rp7.000</span>
+        </div>
+
+        <button>Pesan Sekarang</button>
+    </section>
+
+    <footer>
+        &copy; 2026 Warung Davin
+    </footer>
+
+</body>
+</html>
